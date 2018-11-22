@@ -7,7 +7,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language spanish
+\language spanish-mexico
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -915,6 +915,17 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0044.JPG
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -948,6 +959,13 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0045.JPG
+	scale 25
+
+\end_inset
+
 
 \end_layout
 
@@ -985,6 +1003,13 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0046.JPG
+	scale 25
+
+\end_inset
+
 
 \end_layout
 
@@ -1026,6 +1051,13 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0048.JPG
+	scale 25
+
+\end_inset
+
 
 \end_layout
 
@@ -1186,6 +1218,375 @@ Medicion para m=1 y
 Espectro de radiofrecuencias en Argentina
 \end_layout
 
+\begin_layout Standard
+A continucación se procede a realizar un estudio del espectro de radiorecuencias
+ en Argentina, por lo cual en el siguiente cuadro se procede a mostrar las
+ frecuencias de operación y los niveles de potencia que emiten los diversos
+ sistemas y servicios de comunicaión que utilizan radiofrecuencias:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/atribucción espectro de radiofrecuencias.JPG
+	scale 45
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribución de Radiofrecuencia
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Distribución-de-Radiofrecuencia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Medición señales de telefonía celular - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$878
+\backslash
+,MHz$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar en el cuadro (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Distribución-de-Radiofrecuencia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) esta frecuencia pertenece al rango de servicios de telefonía móvil, dichas
+ señales presentan un sonido pero no es uno que brinde demasiada información
+ pero que se podía diferenciar considerablemente del sonido del ruido eléctrico
+ que produce el analizador.
+\end_layout
+
+\begin_layout Standard
+En esta frecuencia se obtuvo considerando un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$ span=100
+\backslash
+,MHz $
+\end_layout
+
+\end_inset
+
+ y un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$ RBW=1
+\backslash
+,MHz $
+\end_layout
+
+\end_inset
+
+ con el que se obtuvo una medición de potencia de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$ P=-57
+\backslash
+,dBm.
+ $
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Espectro de televisión
+\end_layout
+
+\begin_layout Standard
+El espectro de radiofrecuencia de la televisión argentina esta dividido
+ en 3 bandas como se muestra en la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Banda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frecuencias [Mhz]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VHF Bajo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $54-88$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VHF alto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $174-216$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+UHF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $512-806$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribucioón de las bandas de televisión
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Medición 
+\end_layout
+
+\begin_layout Standard
+Para esta medición se busco sintonizar la frecuencia correspondiente al
+ canal 13 de aire que se obtuvo a la frecuencia 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$f=215,7
+\backslash
+,Mhz$
+\end_layout
+
+\end_inset
+
+ con el cual utilizando un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$span=500
+\backslash
+,kHz$
+\end_layout
+
+\end_inset
+
+ y un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+RBW= 100
+\backslash
+,Khz$
+\end_layout
+
+\end_inset
+
+ se obtuvo la siguienta potencia a partir de la medición 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$P=-37.6
+\backslash
+,dBm$
+\end_layout
+
+\end_inset
+
+.
+ En dicha medición se pudo escuchar claramente el sonido emitido por el
+ programa de televisión que estaba siendo emitido en el instante de la medición.
+\end_layout
+
+\begin_layout Section
+Espectro de FM
+\end_layout
+
+\begin_layout Standard
+Para este ejercicio se prodcedio a analizar el espectro electromagnetico
+ en la banda FM, elegir una emisora, sintonizarla utilizando el analizador
+ de espectros y obtener su potencia.
+\end_layout
+
+\begin_layout Subsection
+Medición 
+\end_layout
+
+\begin_layout Standard
+En esta medición se sintonizo una frecuencia correspondiente a una radio
+ en este caso a radio La Plata cuya frecuencia es de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$92.1
+\backslash
+,MHz$
+\end_layout
+
+\end_inset
+
+, una vez que se pudo sintonizar dicha estación y verificar que era la misma
+ escuchando su contenido, se procedio a medir su potencia y se obtuvo que
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$P=-40
+\backslash
+,dBm$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 \begin_inset Formula $\frac{Sin(x)}{x}$
 \end_inset
@@ -1193,8 +1594,125 @@ Espectro de radiofrecuencias en Argentina
  y Tren de deltas
 \end_layout
 
+\begin_layout Standard
+Para realizar el siguiente ejercicio se utilizó un generador de señales
+ que poseía ya tanto el 
+\begin_inset Formula $sinc(x)$
+\end_inset
+
+ como el tren de ddeltas previamente cargadas, con las que se obtuvieron
+ las siguientes mediciones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Espectro del 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$sinc(x)$
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Espectro-del"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Espectro del tren de deltas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Espectro-del-tren"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar en ambas figuras (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Espectro-del"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) y (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Espectro-del-tren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) se puede observar claramente sus respectivas transformadas de Fourier.
+\end_layout
+
 \begin_layout Section
 Conclusiones
+\end_layout
+
+\begin_layout Standard
+Para Finalizar, se pudo contemplar la funcionalidad que posee el analizador,
+ que nos posibilitó el sintonizar radiofrecuencias y a su vez medir sus
+ espectros tanto como medir el espectro de distintas señales, consecuentemente
+ se pudo comprobar que dichas mediciones coinciden con el cálculo teórico
+ del espectro de las señales medidas que se obtuvo mediante la transformada
+ de Fourier.
+\end_layout
+
+\begin_layout Section
 \begin_inset Newpage pagebreak
 \end_inset
 
