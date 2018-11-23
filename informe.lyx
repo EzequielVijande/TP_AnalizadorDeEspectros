@@ -460,6 +460,22 @@ end{titlepage}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Introducción
 \end_layout
@@ -471,7 +487,7 @@ En este escrito se busca exponer algunas de las distintas aplicaciones de
  con el estudio de las señales en el dominio de la frecuencia y la utilidad
  de los mismos.
  Con este fin, se muestran un numero de mediciones realizadas con dicho
- instrumento y en lo posible la simulacion teorica del fenomeno de interés.
+ instrumento y en lo posible la simulación teórica del fenómeno de interés.
 \end_layout
 
 \begin_layout Section
@@ -479,10 +495,10 @@ Total Harmonic Distortion(THD)
 \end_layout
 
 \begin_layout Standard
-La distorsion armonica es un concepto que hace referenca a que tan 'impura'
- es una senal, ya que establece una relacion entre la ampliud de los armonicos
- secundarios de la senal con el armonico fundamental.
- La defincion matematica de la misma es:
+La distorsión armónica es un concepto que hace referencia a que tan 'impura'
+ es una señal, ya que establece una relación entre la amplitud de los armónicos
+ secundarios de la señal con el armónico fundamental.
+ La definición matemática de la misma es:
 \end_layout
 
 \begin_layout Standard
@@ -502,26 +518,26 @@ Donde
 \begin_inset Formula $P_{i}$
 \end_inset
 
- representa la potencia de los armonicos secundarios de la senal y 
+ representa la potencia de los armónicos secundarios de la señal y 
 \begin_inset Formula $P_{0}$
 \end_inset
 
- es la potencia del armonico fundamental.
- En la practica no es posible hacer la suma de los infinitos armonicos por
- lo que en este trabajo medimos todos los armonicos detectados por el instrument
+ es la potencia del armónico fundamental.
+ En la practica no es posible hacer la suma de los infinitos armónicos por
+ lo que en este trabajo medimos todos los armónicos detectados por el instrument
 o (aquellos con potencia mayor a -80dbm).
 \end_layout
 
 \begin_layout Standard
-Se conectaron 3 generadores de senales distintos al analizador de espectros,aunq
-ue todos del mismo modelo(Agilent 33220A, 20MHz), y se procedio a medir
- la potencia de todos los armonicos presentes con el fin de calcular la
+Se conectaron 3 generadores de señales distintos al analizador de espectros,aunq
+ue todos del mismo modelo(Agilent 33220A, 20MHz), y se procedió a medir
+ la potencia de todos los armónicos presentes con el fin de calcular la
  THD de cada uno.
 \end_layout
 
 \begin_layout Standard
-Dicha medicion se llevo a cabo para una senal senoidal de una amplitud de
- 250mVpp y una frecuencia fundamental de 900KHz.A continuacion se presenta
+Dicha medición se llevo a cabo para una señal senoidal de una amplitud de
+ 250mVpp y una frecuencia fundamental de 900KHz.A continuación se presenta
  una tabla con los resultados obtenidos:
 \end_layout
 
@@ -535,9 +551,8 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="7">
+<lyxtabular version="3" rows="4" columns="6">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -595,15 +610,6 @@ status collapsed
 
 \begin_layout Plain Layout
 THD(medido)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Error
 \end_layout
 
 \end_inset
@@ -667,15 +673,6 @@ Generador
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -731,15 +728,6 @@ Generador
 
 \begin_layout Plain Layout
 0.01%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -803,15 +791,6 @@ Generador
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -856,16 +835,16 @@ Espectros de distintas señales
 \end_layout
 
 \begin_layout Standard
-Se procedio a realizar la medicion del espectro de distintas formas de onda,
+Se procedió a realizar la medición del espectro de distintas formas de onda,
  todas de 250mVpp y de una frecuencia fundamental de 900KHz.
 \end_layout
 
 \begin_layout Subsection
-Senal cuadrada
+Señal cuadrada
 \end_layout
 
 \begin_layout Subsection
-Senal triangular
+Señal triangular
 \end_layout
 
 \begin_layout Subsection
@@ -873,24 +852,24 @@ Tren de pulsos
 \end_layout
 
 \begin_layout Section
-Modulacion AM y FM
+Modulación AM y FM
 \end_layout
 
 \begin_layout Standard
-Mediante el uso de dos generadores se procedio a generar una senal modulada
+Mediante el uso de dos generadores se procedió a generar una señal modulada
  en AM de 200mVpp.
- Se utilizo un generador de ondas para producir la senal correspondiente
+ Se utilizo un generador de ondas para producir la señal correspondiente
  a la moduladora(se utilizo 
 \begin_inset Formula $f_{m}=100KHz$
 \end_inset
 
-) y el otro para producir la senal de la portadora(
+) y el otro para producir la señal de la portadora(
 \begin_inset Formula $f_{p}=1.1MHz$
 \end_inset
 
 ).
- Luego se repitio la experiencia con las dos ondas de las mismas caracteristicas
- pero con el objetivo de producir una senal modulada en FM.
+ Luego se repitió la experiencia con las dos ondas de las mismas características
+ pero con el objetivo de producir una señal modulada en FM.
 \end_layout
 
 \begin_layout Subsection
@@ -898,8 +877,8 @@ Resultados AM
 \end_layout
 
 \begin_layout Standard
-A continuacion se presentan imagenes obtenidas del analizador de espectros
- para distintos casos de interes, acompanados por su correspondiente simulacion.
+A continuación se presentan imágenes obtenidas del analizador de espectros
+ para distintos casos de interés, acompañados por su correspondiente simulación.
 \end_layout
 
 \begin_layout Itemize
@@ -912,13 +891,13 @@ Moduladora senoidal, m=0.5
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/DSC_0044.JPG
-	scale 25
+	scale 7
 
 \end_inset
 
@@ -929,15 +908,11 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para m=0.5
+Medición para m=0.5
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -956,13 +931,13 @@ Moduladora senoidal, m=1
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/DSC_0045.JPG
-	scale 25
+	scale 7
 
 \end_inset
 
@@ -973,15 +948,11 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion obtenida para m=1
+Medición obtenida para m=1
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1000,13 +971,13 @@ Moduladora triangular, m=1
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/DSC_0046.JPG
-	scale 25
+	scale 7
 
 \end_inset
 
@@ -1017,15 +988,11 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para moduladora triangular y m=1
+Medición para moduladora triangular y m=1
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1048,13 +1015,13 @@ Moduladora senoidal,m=1 (
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/DSC_0048.JPG
-	scale 25
+	scale 7
 
 \end_inset
 
@@ -1065,7 +1032,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para m=1 y 
+Medición para m=1 y 
 \begin_inset Formula $f_{m}=f_{p}=1.1MHz$
 \end_inset
 
@@ -1074,10 +1041,6 @@ Medicion para m=1 y
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1106,7 +1069,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para m=0.5
+Medición para m=0.5
 \end_layout
 
 \end_inset
@@ -1135,7 +1098,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion obtenida para m=1
+Medición obtenida para m=1
 \end_layout
 
 \end_inset
@@ -1164,7 +1127,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para moduladora triangular y m=1
+Medición para moduladora triangular y m=1
 \end_layout
 
 \end_inset
@@ -1197,7 +1160,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Medicion para m=1 y 
+Medición para m=1 y 
 \begin_inset Formula $f_{m}=f_{p}=1.1MHz$
 \end_inset
 
@@ -1219,10 +1182,10 @@ Espectro de radiofrecuencias en Argentina
 \end_layout
 
 \begin_layout Standard
-A continucación se procede a realizar un estudio del espectro de radiorecuencias
+A continuación se procede a realizar un estudio del espectro de radiofrecuencias
  en Argentina, por lo cual en el siguiente cuadro se procede a mostrar las
  frecuencias de operación y los niveles de potencia que emiten los diversos
- sistemas y servicios de comunicaión que utilizan radiofrecuencias:
+ sistemas y servicios de comunicación que utilizan radiofrecuencias:
 \end_layout
 
 \begin_layout Standard
@@ -1350,7 +1313,7 @@ Espectro de FM
 \end_layout
 
 \begin_layout Standard
-Para este ejercicio se prodcedio a analizar el espectro electromagnetico
+Para este ejercicio se prodcedio a analizar el espectro electromagnético
  en la banda FM, elegir una emisora, sintonizarla utilizando el analizador
  de espectros y obtener su potencia.
 \end_layout
@@ -1606,9 +1569,21 @@ Para realizar el siguiente ejercicio se utilizó un generador de señales
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0058.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1647,15 +1622,31 @@ name "fig:Espectro-del"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0059.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Espectro del tren de deltas
+Espectro del tren de deltas (
+\begin_inset Formula $f_{0}=125KHz$
+\end_inset
+
+)
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Espectro-del-tren"
@@ -1686,7 +1677,8 @@ noprefix "false"
 
 \end_inset
 
-) y (
+) .
+ En el caso de 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Espectro-del-tren"
@@ -1696,7 +1688,11 @@ noprefix "false"
 
 \end_inset
 
-) se puede observar claramente sus respectivas transformadas de Fourier.
+ se puede ver que los armonicos medidos tienen la forma de un sinc, esto
+ se debe a que el generador no puede generar deltas perfectos sino que los
+ mimos son cuadradas angostas.
+ Esto epxlica porque el espectro en frecuencia del mismo se ve como un sinc,
+ ya que la transformada de fourier de una cuadrada es un sinc.
 \end_layout
 
 \begin_layout Section
@@ -1712,7 +1708,7 @@ Para Finalizar, se pudo contemplar la funcionalidad que posee el analizador,
  de Fourier.
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
