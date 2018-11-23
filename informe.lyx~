@@ -1346,6 +1346,53 @@ $ P=-57
 \end_layout
 
 \begin_layout Section
+Espectro de FM
+\end_layout
+
+\begin_layout Standard
+Para este ejercicio se prodcedio a analizar el espectro electromagnetico
+ en la banda FM, elegir una emisora, sintonizarla utilizando el analizador
+ de espectros y obtener su potencia.
+\end_layout
+
+\begin_layout Subsection
+Medición 
+\end_layout
+
+\begin_layout Standard
+En esta medición se sintonizo una frecuencia correspondiente a una radio
+ en este caso a radio La Plata cuya frecuencia es de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$92.1
+\backslash
+,MHz$
+\end_layout
+
+\end_inset
+
+, una vez que se pudo sintonizar dicha estación y verificar que era la misma
+ escuchando su contenido, se procedio a medir su potencia y se obtuvo que
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$P=-40
+\backslash
+,dBm$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Espectro de televisión
 \end_layout
 
@@ -1489,9 +1536,9 @@ status open
 
 \begin_layout Plain Layout
 
-$f=215,7
+$ f=215,7
 \backslash
-,Mhz$
+,Mhz $
 \end_layout
 
 \end_inset
@@ -1515,9 +1562,9 @@ status open
 
 \begin_layout Plain Layout
 
-RBW= 100
+$ RBW= 100
 \backslash
-,Khz$
+,Khz $
 \end_layout
 
 \end_inset
@@ -1530,7 +1577,7 @@ status open
 
 $P=-37.6
 \backslash
-,dBm$
+,dBm $
 \end_layout
 
 \end_inset
@@ -1538,53 +1585,6 @@ $P=-37.6
 .
  En dicha medición se pudo escuchar claramente el sonido emitido por el
  programa de televisión que estaba siendo emitido en el instante de la medición.
-\end_layout
-
-\begin_layout Section
-Espectro de FM
-\end_layout
-
-\begin_layout Standard
-Para este ejercicio se prodcedio a analizar el espectro electromagnetico
- en la banda FM, elegir una emisora, sintonizarla utilizando el analizador
- de espectros y obtener su potencia.
-\end_layout
-
-\begin_layout Subsection
-Medición 
-\end_layout
-
-\begin_layout Standard
-En esta medición se sintonizo una frecuencia correspondiente a una radio
- en este caso a radio La Plata cuya frecuencia es de 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$92.1
-\backslash
-,MHz$
-\end_layout
-
-\end_inset
-
-, una vez que se pudo sintonizar dicha estación y verificar que era la misma
- escuchando su contenido, se procedio a medir su potencia y se obtuvo que
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$P=-40
-\backslash
-,dBm$
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section

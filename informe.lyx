@@ -530,7 +530,7 @@ Dicha medicion se llevo a cabo para una senal senoidal de una amplitud de
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -864,12 +864,69 @@ Se procedio a realizar la medicion del espectro de distintas formas de onda,
 Senal cuadrada
 \end_layout
 
+\begin_layout Standard
+Para la señal cuadrada se procedio primero a realizar un análisis teórico
+ de dicha señal.
+ Estableciendo su amplitud como A, su duty cycle D y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ se puede expresar su señal con una serie trigonométrica de Fourier de infinitos
+ terminos:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $x(t)=A\,(2D-1)\,+\,\stackrel[n=1]{\infty}{\sum}\left(\frac{2A}{\pi\,n}\sin(2\pi nD)\cos\left(\frac{2\pi n}{T}\,t\right)+\frac{2A}{\pi\,n}\left(1-\cos(2\pi nD)\right)\sin\left(\frac{2\pi n}{T}\,t\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
+\end_layout
+
 \begin_layout Subsection
 Senal triangular
 \end_layout
 
+\begin_layout Standard
+Analogamente se realizó ek mismo análisis para una señal triangular con
+ simetría del 
+\begin_inset Formula $50\%$
+\end_inset
+
+, amplitud A y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ y se obtiene la siguiente expresión
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x(t)=\frac{A\,8}{\pi^{2}}\stackrel[n=1]{\infty}{\sum}\frac{1}{(2n-1)^{2}}\cos\left(\frac{2\pi(2n-1)}{T}\,t\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
+\end_layout
+
 \begin_layout Subsection
 Tren de pulsos
+\end_layout
+
+\begin_layout Standard
+Para el tren de deltas se obtuvieron las siguientes medicioenes:
 \end_layout
 
 \begin_layout Section

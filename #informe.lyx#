@@ -530,7 +530,7 @@ Dicha medicion se llevo a cabo para una senal senoidal de una amplitud de
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -864,8 +864,61 @@ Se procedio a realizar la medicion del espectro de distintas formas de onda,
 Senal cuadrada
 \end_layout
 
+\begin_layout Standard
+Para la señal cuadrada se procedio primero a realizar un análisis teórico
+ de dicha señal.
+ Estableciendo su amplitud como A, su duty cycle D y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ se puede expresar su señal con una serie trigonométrica de Fourier de infinitos
+ terminos:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $x(t)=A\,(2D-1)\,+\,\stackrel[n=1]{\infty}{\sum}\left(\frac{2A}{\pi\,n}\sin(2\pi nD)\cos\left(\frac{2\pi n}{T}\,t\right)+\frac{2A}{\pi\,n}\left(1-\cos(2\pi nD)\right)\sin\left(\frac{2\pi n}{T}\,t\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
+\end_layout
+
 \begin_layout Subsection
 Senal triangular
+\end_layout
+
+\begin_layout Standard
+Analogamente se realizó ek mismo análisis para una señal triangular con
+ simetría del 
+\begin_inset Formula $50\%$
+\end_inset
+
+, amplitud A y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ y se obtiene la siguiente expresión
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x(t)=\frac{A\,8}{\pi^{2}}\stackrel[n=1]{\infty}{\sum}\frac{1}{(2n-1)^{2}}\cos\left(\frac{2\pi(2n-1)}{T}\,t\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
 \end_layout
 
 \begin_layout Subsection
@@ -1390,6 +1443,201 @@ $P=-40
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Espectro de televisión
+\end_layout
+
+\begin_layout Standard
+El espectro de radiofrecuencia de la televisión argentina esta dividido
+ en 3 bandas como se muestra en la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Banda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frecuencias [Mhz]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VHF Bajo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $54-88$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VHF alto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $174-216$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+UHF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $512-806$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribucioón de las bandas de televisión
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Medición 
+\end_layout
+
+\begin_layout Standard
+Para esta medición se busco sintonizar la frecuencia correspondiente al
+ canal 13 de aire que se obtuvo a la frecuencia 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$ f=215,7
+\backslash
+,Mhz $
+\end_layout
+
+\end_inset
+
+ con el cual utilizando un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$span=500
+\backslash
+,kHz$
+\end_layout
+
+\end_inset
+
+ y un 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$ RBW= 100
+\backslash
+,Khz $
+\end_layout
+
+\end_inset
+
+ se obtuvo la siguienta potencia a partir de la medición 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$P=-37.6
+\backslash
+,dBm $
+\end_layout
+
+\end_inset
+
+.
+ En dicha medición se pudo escuchar claramente el sonido emitido por el
+ programa de televisión que estaba siendo emitido en el instante de la medición.
 \end_layout
 
 \begin_layout Section
