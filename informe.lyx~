@@ -843,12 +843,188 @@ Se procedió a realizar la medición del espectro de distintas formas de onda,
 Señal cuadrada
 \end_layout
 
+\begin_layout Standard
+Para la señal cuadrada se procedio primero a realizar un análisis teórico
+ de dicha señal.
+ Estableciendo su amplitud como A, su duty cycle D y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ se puede expresar su señal con una serie trigonométrica de Fourier de infinitos
+ terminos:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $x(t)=A\,(2D-1)\,+\,\stackrel[n=1]{\infty}{\sum}\left(\frac{2A}{\pi\,n}\sin(2\pi nD)\cos\left(\frac{2\pi n}{T}\,t\right)+\frac{2A}{\pi\,n}\left(1-\cos(2\pi nD)\right)\sin\left(\frac{2\pi n}{T}\,t\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosCuadrada.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos medidos de la cuadrada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Señal triangular
 \end_layout
 
+\begin_layout Standard
+Analogamente se realizó ek mismo análisis para una señal triangular con
+ simetría del 
+\begin_inset Formula $50\%$
+\end_inset
+
+, amplitud A y frecuencia 
+\begin_inset Formula $f=\frac{1}{T}$
+\end_inset
+
+ y se obtiene la siguiente expresión
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x(t)=\frac{A\,8}{\pi^{2}}\stackrel[n=1]{\infty}{\sum}\frac{1}{(2n-1)^{2}}\cos\left(\frac{2\pi(2n-1)}{T}\,t\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+teniendo en cuenta esto se realizaron las mediciones con el analizar de
+ espectros y se encontro los siguientes resultados:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosTriang.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos medidos de la triangular
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que se anulan los armonicos pares, lo cual es lo esperado debido
+ a que la senal presenta simetria de media onda
+\end_layout
+
 \begin_layout Subsection
 Tren de pulsos
+\end_layout
+
+\begin_layout Standard
+Para el tren de deltas se obtuvieron las siguientes mediciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosDeltas.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos del tren de deltas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -891,7 +1067,7 @@ Moduladora senoidal, m=0.5
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -916,10 +1092,6 @@ Medición para m=0.5
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -935,7 +1107,7 @@ Moduladora senoidal, m=1
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -975,7 +1147,7 @@ Moduladora triangular, m=1
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1000,10 +1172,6 @@ Medición para moduladora triangular y m=1
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1023,7 +1191,7 @@ Moduladora senoidal,m=1 (
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1052,10 +1220,6 @@ Medición para m=1 y
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1076,6 +1240,17 @@ placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0052.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1107,6 +1282,17 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0054.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1134,6 +1320,17 @@ placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0057.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1167,6 +1364,17 @@ placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0056.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1202,6 +1410,7 @@ A continuación se procede a realizar un estudio del espectro de radiofrecuencia
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
@@ -1325,11 +1534,7 @@ Espectro de FM
 \end_layout
 
 \begin_layout Standard
-<<<<<<< HEAD
 Para este ejercicio se prodcedio a analizar el espectro electromagnético
-=======
-Para este ejercicio se prodcedio a analizar el espectro electromagnetico
->>>>>>> c95be266f4579c4660e25a881dabafa2ea215776
  en la banda FM, elegir una emisora, sintonizarla utilizando el analizador
  de espectros y obtener su potencia.
 \end_layout
@@ -1368,7 +1573,7 @@ $P=-40
 
 \end_inset
 
-
+ con Sweep time de 0.2s, VF=1KHz, RBW=100K y Span= 500KHz.
 \end_layout
 
 \begin_layout Section
@@ -1382,6 +1587,7 @@ El espectro de radiofrecuencia de la televisión argentina esta dividido
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
@@ -1579,7 +1785,7 @@ Para realizar el siguiente ejercicio se utilizó un generador de señales
 \begin_inset Formula $sinc(x)$
 \end_inset
 
- como el tren de ddeltas previamente cargadas, con las que se obtuvieron
+ como el tren de deltas previamente cargadas, con las que se obtuvieron
  las siguientes mediciones.
 \end_layout
 
@@ -1707,7 +1913,7 @@ noprefix "false"
  se puede ver que los armonicos medidos tienen la forma de un sinc, esto
  se debe a que el generador no puede generar deltas perfectos sino que los
  mimos son cuadradas angostas.
- Esto epxlica porque el espectro en frecuencia del mismo se ve como un sinc,
+ Esto explica porque el espectro en frecuencia del mismo se ve como un sinc,
  ya que la transformada de fourier de una cuadrada es un sinc.
 \end_layout
 

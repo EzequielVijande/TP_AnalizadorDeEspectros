@@ -544,9 +544,10 @@ Dicha medición se llevo a cabo para una señal senoidal de una amplitud de
 \begin_layout Standard
 \align center
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -867,6 +868,45 @@ teniendo en cuenta esto se realizaron las mediciones con el analizar de
  espectros y se encontro los siguientes resultados:
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosCuadrada.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos medidos de la cuadrada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Señal triangular
 \end_layout
@@ -900,12 +940,95 @@ teniendo en cuenta esto se realizaron las mediciones con el analizar de
  espectros y se encontro los siguientes resultados:
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosTriang.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos medidos de la triangular
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que se anulan los armonicos pares, lo cual es lo esperado debido
+ a que la senal presenta simetria de media onda
+\end_layout
+
 \begin_layout Subsection
 Tren de pulsos
 \end_layout
 
 \begin_layout Standard
-Para el tren de deltas se obtuvieron las siguientes medicioenes:
+Para el tren de deltas se obtuvieron las siguientes mediciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/armonicosDeltas.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Armonicos del tren de deltas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -948,7 +1071,7 @@ Moduladora senoidal, m=0.5
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -988,7 +1111,7 @@ Moduladora senoidal, m=1
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1028,7 +1151,7 @@ Moduladora triangular, m=1
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1072,7 +1195,7 @@ Moduladora senoidal,m=1 (
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1123,6 +1246,17 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0052.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1152,6 +1286,17 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0054.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1179,6 +1324,17 @@ placement H
 wide false
 sideways false
 status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0057.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1214,6 +1370,17 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/DSC_0056.JPG
+	scale 7
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1247,6 +1414,7 @@ A continuación se procede a realizar un estudio del espectro de radiofrecuencia
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
@@ -1409,7 +1577,7 @@ $P=-40
 
 \end_inset
 
-
+ con Sweep time de 0.2s, VF=1KHz, RBW=100K y Span= 500KHz.
 \end_layout
 
 \begin_layout Section
@@ -1423,6 +1591,7 @@ El espectro de radiofrecuencia de la televisión argentina esta dividido
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
@@ -1620,7 +1789,7 @@ Para realizar el siguiente ejercicio se utilizó un generador de señales
 \begin_inset Formula $sinc(x)$
 \end_inset
 
- como el tren de ddeltas previamente cargadas, con las que se obtuvieron
+ como el tren de deltas previamente cargadas, con las que se obtuvieron
  las siguientes mediciones.
 \end_layout
 
@@ -1748,7 +1917,7 @@ noprefix "false"
  se puede ver que los armonicos medidos tienen la forma de un sinc, esto
  se debe a que el generador no puede generar deltas perfectos sino que los
  mimos son cuadradas angostas.
- Esto epxlica porque el espectro en frecuencia del mismo se ve como un sinc,
+ Esto explica porque el espectro en frecuencia del mismo se ve como un sinc,
  ya que la transformada de fourier de una cuadrada es un sinc.
 \end_layout
 
